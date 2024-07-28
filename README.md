@@ -1,8 +1,12 @@
-# React + Vite
+# Pet Listing Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The Pet Listing website is a React.js application that allows users to browse, search, and view details of various pets. The project follows best coding practices, including error handling, state management, ESLint, and project bundling with Webpack/Vite.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Browse a list of pets
+- View detailed information about a selected pet
+- Search for pets based on animal type, location, and breed
+- Fetch breeds for specific animal types
+- Error handling for API calls
+- Responsive design
