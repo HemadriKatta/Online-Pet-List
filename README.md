@@ -12,21 +12,22 @@ The Pet Listing website is a React.js application that allows users to browse, s
 - Responsive design
 
 
-pet-listing-website/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── PetList.jsx
-│   │   ├── PetDetails.jsx
-│   │   ├── SearchForm.jsx
-│   │   └── ErrorBoundary.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   └── PetDetailPage.jsx
-│   ├── services/
-│   │   └── api.js
-│   ├── utils/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── .env
-└── package.json
+
+### Components
+
+- **PetList.jsx**: Displays a list of pets.
+- **PetDetails.jsx**: Shows detailed information about a specific pet.
+- **SearchForm.jsx**: A form to search for pets based on different criteria.
+- **ErrorBoundary.jsx**: A component to handle and display errors gracefully.
+
+### Pages
+
+- **Home.jsx**: The main landing page of the application where users can search for pets.
+
+### Services
+
+- **api.js**: Contains functions to make API calls to fetch pet data.
+
+### Environment Variables
+
+- **.env**: Stored environment variables like API keys here. This file is listed in `.gitignore` to prevent sensitive information from being committed to version control.
