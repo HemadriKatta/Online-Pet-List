@@ -10,3 +10,23 @@ The Pet Listing website is a React.js application that allows users to browse, s
 - Fetch breeds for specific animal types
 - Error handling for API calls
 - Responsive design
+
+
+pet-listing-website/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── PetList.jsx
+│   │   ├── PetDetails.jsx
+│   │   ├── SearchForm.jsx
+│   │   └── ErrorBoundary.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   └── PetDetailPage.jsx
+│   ├── services/
+│   │   └── api.js
+│   ├── utils/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── .env
+└── package.json
